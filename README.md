@@ -24,21 +24,21 @@ Incluye métodos clásicos y de *machine learning*, con reglas específicas para
 Desde carpeta local (recomendado para pruebas):
 
 ```bash
-pip install .
+!pip install .
 ```
 
 Después de subirlo a GitHub:
 ```bash
-pip install git+https://github.com/Bruce1998a/enandesfill.git
+!pip install git+https://github.com/Bruce1998a/enandesfill.git
 ```
 
 ### Extras opcionales (si usarás esos métodos)
 
 ```bash
-pip install missingpy
-pip install xgboost
-pip install lightgbm
-pip install tensorflow
+!pip install missingpy
+!pip install xgboost
+!pip install lightgbm
+!pip install tensorflow
 ```
 
 ---
