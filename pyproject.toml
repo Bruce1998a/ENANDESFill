@@ -20,3 +20,12 @@ dependencies = [
 
 [project.urls]
 Homepage = "https://github.com/Bruce1998a/enandesfill"
+
+[tool.setuptools]
+package-dir = {"" = "src"}
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.setuptools.package-data]
+enandesfill = ["ejemplo_fill_py.csv"]
